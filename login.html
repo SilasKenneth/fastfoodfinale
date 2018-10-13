@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header">
+        <nav class="nav">
+            <ul class="navbar">
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> </a></li>
+                <li><a href="signup.html"> Create account</a></li>
+                <li><a href="login.html">Sign in</a></li>
+                <li><a href="menu.html"><i class="fa fa-utensils"></i>&nbsp;&nbsp;Menu</a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <h3 class="text-center">Sign in</h3>
+        <hr>
+        <br>
+        <div class="error hidden" id="error">
+            <h4 id="error-box"> The username or email is incorrect</h4>
+        </div>
+        <br>
+        <input type="text" placeholder="Username or email" name="username" id="username"/>
+        <br><br>
+        <input type="password" placeholder="Password" name="password" id="password"/><br><br>
+        <button class="red full-width good-font" onclick="login()">Sign in &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i> </button>
+    </div>
+</main>
+<script src="js/api.js" type="application/javascript"></script>
+<script src="js/login.js" type="application/javascript"></script>
+</body>
+</html>
