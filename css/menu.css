@@ -1,0 +1,50 @@
+.container{
+    margin-top: 2em;
+    color:#521D00;
+    margin: auto;
+    margin-top: 8vh;
+    background: white;
+    padding:20px;
+}
+body{
+    background: whitesmoke!important;
+}
+.container h3{
+    font-family: 'Engagement', cursive;
+    font-size: 3em;
+}
+.menu .menu-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding:5px;
+}
+
+.menu-item .price h4{
+    line-height: 3;
+}
+
+.menu-item .actions{
+    line-height: 3;
+}
+
+.menu .menu-item:nth-of-type(odd){
+    background: lightgray;
+}
+
+.menu-item:hover *{
+    color: white;
+}
+
+.menu-item:hover{
+    background: #4F1900!important;
+}
+
+.actions a{
+    font-size: 1.4em;
+}
+@media screen and (min-width: 800px){
+    .container{
+        width: 700px;
+    }
+}
