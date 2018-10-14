@@ -10,7 +10,7 @@ menu_promise.then(res => {
 			<p>${item.description}</p>
                 </div>
                 <div class="price">
-                    <h4>${item.price}</h4>
+                    <h4>Ksh. ${item.price}</h4>
                 </div>
                 <div class="actions">
                     <a class="E" href="#" onclick="getwhich(this)"><i class="fa fa-plus-circle"></i> </a>
