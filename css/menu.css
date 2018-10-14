@@ -4,7 +4,7 @@
     margin: auto;
     margin-top: 8vh;
     background: white;
-    padding:20px;
+    padding:10px;
 }
 body{
     background: whitesmoke!important;
@@ -42,6 +42,10 @@ body{
 
 .actions a{
     font-size: 1.4em;
+}
+.details{
+    max-width: 200px!important;
+    min-width: 200px!important;
 }
 @media screen and (min-width: 800px){
     .container{
